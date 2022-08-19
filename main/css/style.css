@@ -105,7 +105,32 @@
 
 .main-cover-img-body{
     position: absolute;
-    left: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 230px;
+    text-align: center;
+}
+
+.slogan-body{
+    line-height: 2.1em;
+    font-size: 25px;
+}
+
+.content-body{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 33px;
+}
+
+.a-btn-service{
+    text-decoration: none;
+}
+
+.span-btn-service{
+    background-color: var(--red-color);
+    padding: 8px 25px;
+    font-size: larger;
+    color: rgb(57, 65, 73);
 }
 
 /*Footer*/
