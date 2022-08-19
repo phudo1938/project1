@@ -1,0 +1,10 @@
+:root {
+    --background-color: rgb(41, 47, 69);
+    --while-color: #fff;
+    --black-color: #333;
+    --red-color: rgb(234, 111, 102);
+}
+
+*{
+    box-sizing: inherit;
+}
