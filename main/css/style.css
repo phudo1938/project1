@@ -1,3 +1,5 @@
+
+/*Header*/
 .full-body header{
     height: 100px;
     background-color: var(--background-color);
@@ -67,7 +69,6 @@
 .content-right-headder{
     list-style: none;
     display: flex;
-    color: var(--while-color);
 }
 
 .content-right-headder li p{
@@ -77,4 +78,54 @@
 
 .content-right-headder li:hover p{
     cursor: pointer;
+}
+
+.page-right-header p{
+    color: var(--red-color);
+}
+
+.service-right-header{
+    color: var(--while-color);
+}
+.introduce-right-header{
+    color: var(--while-color);
+}
+.contact-right-header{
+    color: var(--while-color);
+}
+
+
+
+/*body*/
+
+.cover-image-body img{
+    width: 100%;
+    height: 595px;
+}
+
+.main-cover-img-body{
+    position: absolute;
+    left: 25%;
+}
+
+/*Footer*/
+.footer{
+    justify-content: center;
+    text-align: center;
+}
+
+.content-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: var(--background-color);
+    color: var(--while-color);
+}
+
+.top-content-footer{
+    margin: 15px;
+}
+.down-content-footer{
+    
 }
