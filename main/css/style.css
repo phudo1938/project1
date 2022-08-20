@@ -133,6 +133,9 @@
     color: rgb(57, 65, 73);
 }
 
+.span-btn-service:hover{
+    background-color: var(--while-color);
+}
 /*Footer*/
 .footer{
     justify-content: center;
