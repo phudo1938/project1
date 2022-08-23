@@ -196,6 +196,7 @@
     display: flex;
     margin: 0% 5%;
     margin-bottom: 70px;
+    justify-content: center;
 }
 .small-up1-title-service{
     display: flex;
@@ -229,9 +230,45 @@
 }
 .title-service-readmore{
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
+.readmore-btn-service{
+    background-color: var(--red-color);
+    padding: 8px 25px;
+    font-size: larger;
+    color: rgb(57, 65, 73);
+    text-decoration: none;
+}
+.readmore-btn-service:hover{
+    background-color: #333;
+    color: var(--while-color);
+}
+
+.up-believe{
+    text-align: center;
+    height: 257px;
+    background-color: var(--background-color);
+    font-size: 25px;
+    color: var(--while-color);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 70px 0px 0px 0px;
+}
+.span-up-believe{
+    margin-top: 128px;
+}
+
+.down-believe{
+    background: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 13%;
+}
+.size-down-believe{
+    width: 245px;
+    height: 365px;
+}
 /*Footer*/
 .footer{
     justify-content: center;
