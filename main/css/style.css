@@ -1,4 +1,6 @@
-
+body{
+    margin: auto;
+}
 /*Header*/
 .full-body header{
     height: 100px;
@@ -244,7 +246,9 @@
     background-color: #333;
     color: var(--while-color);
 }
-
+.believe{
+    background-color: rgb(234, 239, 249);
+}
 .up-believe{
     text-align: center;
     height: 257px;
@@ -268,6 +272,67 @@
 .size-down-believe{
     width: 245px;
     height: 365px;
+    margin-left: 5%;
+}
+.opinion{
+    display: flex;
+    justify-content: center;
+    margin: 0 5%;
+    position: relative;
+    bottom: 190px;
+}
+.opinion-1{
+    text-align: center;
+    margin-left: 5%;
+    width: 320px;
+    height: 363px;
+    background-color: var(--while-color);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.icon-opinion{
+    padding-top: 30px;
+}
+.h2-slogan-opinion{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+.p-text{
+    font-size: 17px;
+    font-family: sans-serif;
+    width: 250px;
+    margin: auto;
+    line-height: 1.8rem;
+}
+.h2-name{
+    padding-top: 30px;
+    margin: auto;
+}
+.note-1{
+    margin: auto;
+    padding-top: 10px;
+}
+
+.contact{
+    background-color: rgb(234, 239, 249);
+    text-align: center;
+    height: 370px;
+}
+.img-contact{
+    width: 360px;
+    height: 131px;
+    margin: auto;
+}
+.imgg-contact{
+    width: 100%;
+    height: 100%;
+}
+.span-contact{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h2-contact{
+    margin: 40px;
 }
 /*Footer*/
 .footer{
