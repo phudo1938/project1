@@ -323,8 +323,15 @@
                     </div>
                 </div>
                 <div class="contact">
-                    <div class="img-contact">
-                        <img class="imgg-contact" src="https://i.pinimg.com/564x/88/02/73/88027388f30e86447ffdf5c4ef7dc889.jpg" alt="">
+                    <div class="flip-card-contact">
+                        <div class="flip-card-contact-inner">
+                            <div class="img-contact">
+                                <img class="imgg-contact" src="https://i.pinimg.com/564x/88/02/73/88027388f30e86447ffdf5c4ef7dc889.jpg" alt="">
+                            </div>
+                            <div class="flip-card-contact-back">
+                                <p>Chúc một ngày tốt lành</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="name-contact">
                         <h2 class="h2-contact">
@@ -357,20 +364,6 @@
         </footer>
     </div>
 
-
-    <script>
-        var mobileHeader = document.getElementById('headerID');
-        var mobileID = document.getElementById('menuID');
-        var rightID = document.getElementById('rightID');
-
-        mobileID.onclick = function() {
-            var isClosed = mobileHeader.clientHeight === 65;
-            if (isClosed) {
-                mobileHeader.style.height = 'auto';
-            } else {
-                mobileHeader.style.height = '65px';
-            } 
-        }
-    </script>
+    <script src="./js/on.js"></script>
 </body>
 </html>

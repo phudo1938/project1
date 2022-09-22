@@ -133,8 +133,7 @@ body{
 }
 
 .info-slogan-myself{
-    height: 514px;
-    width: 940px;
+
 }
 
 .slogan-myself{
@@ -216,13 +215,12 @@ body{
     margin-left: 2%;
 }
 .small-1-title-service{
-    width: 30%;
+
 }
 .bi{
     font-size: 30px;
 }
 .small-1h-title-service{
-    width: 185px;
     font-size: 23px;
     font-weight: 100;
     margin: 15px 0px;
@@ -230,7 +228,6 @@ body{
 }
 .small-1p-title-service{
     width: 275px;
-    height: 135px;
     line-height: 1.4rem;
     font-size: larger;
 }
@@ -241,7 +238,6 @@ body{
     margin-left: 50px;
 }
 .ll-small-service{
-    height: 100%;
     width: 1px;
     background-color: #333;
     margin-left: 80px;
@@ -267,12 +263,11 @@ body{
 }
 .up-believe{
     text-align: center;
-    height: 257px;
     background-color: var(--background-color);
     font-size: 25px;
     color: var(--while-color);
     font-family: Arial, Helvetica, sans-serif;
-    padding: 70px 0px 0px 0px;
+    padding: 150px;
 }
 .span-up-believe{
     margin-top: 128px;
@@ -338,6 +333,23 @@ body{
     width: 360px;
     height: 131px;
     margin: auto;
+}
+.flip-card-contact-inner{
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+.flip-card-contact:hover .flip-card-contact-inner{
+    transform: rotateY(180deg);
+}
+.img-contact, .flip-card-contact-back{
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.flip-card-contact-back{
+    background-color: antiquewhite;
+    color: black;
+    transform: rotateY(180deg);
 }
 .imgg-contact{
     width: 100%;
