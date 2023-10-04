@@ -350,6 +350,9 @@ body{
     background-color: antiquewhite;
     color: black;
     transform: rotateY(180deg);
+    width: auto;
+    display: inline-block;
+    font-size: x-large;
 }
 .imgg-contact{
     width: 100%;
